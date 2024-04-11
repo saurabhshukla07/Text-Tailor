@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.btn{
+  background-color: #051129;
+  color: white;
+ 
+}
+
+
+.btn:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: #00EEFF;
+  color: #051129;
+
+}
+
+/* 
+@keyframes disco {
+  from {background-color: red;color:blue;}
+  to {background-color: blue; color:red;}
+} */
+
+/* The element to apply the animation to */
+.toggledisco{
+   padding: 0.4rem;
+  border-radius: 0.2px; 
+
+  /* background-color: red;
+  animation-name: disco;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite; */
+  cursor: pointer;
+  background-color: #051129;
+  color: #dadada;
+  width: 15vw;
+}
+.credit{
+  position: relative;
+display: flex;
+justify-content: center;
+
+
+}
